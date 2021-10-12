@@ -24,7 +24,7 @@ namespace PHPShopify;
  * @method array move()			Move a fulfilment order to a new location
  * @method array reschedule()	Reschedule fulfill_at_time of a scheduled fulfillment order
  * @method array hold()	        Hold a fulfillment order
- * @method array releaseHold()  Release hold on a fulfillment order
+ * @method array release_hold()  Release hold on a fulfillment order
  *
  */
 class FulfillmentOrder extends ShopifyResource
